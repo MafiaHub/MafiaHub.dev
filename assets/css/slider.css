@@ -1,0 +1,91 @@
+#main-slider-bg{
+   /* background-image: url('../img/slider2.jpg');*/
+    position: relative;
+    height: 500px;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+video#bgvid { 
+    position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
+.slider-overlay{
+    background: rgba(0,0,0,.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.slider-main{
+    padding-top: 120px;
+}
+.slider-main .flex-control-paging li a {
+    background: #fff !important;
+}
+
+.slider-main .flex-control-paging li a.flex-active {
+    background: #D40000 !important;
+}
+.slider-main .flex-control-nav {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 0px !important;
+    position: relative;
+    margin-top: 80px;
+}
+
+.slider-heading{
+    color:#fff;
+
+	font-family: sans-serif;
+    font-weight: 300;
+    font-size: 4em;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.slider-desc{
+    color:#fff;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media(max-width:767px){
+    /*for slider text*/
+    .slider-heading{
+        font-size: 2.9em;
+        margin-top: 10px;
+    }
+    .navbar-brand{
+        padding-top: 15px;
+    }
+    #page-tree{
+        padding-top: 70px !important;
+    }
+}
+
+@font-face {
+    font-family: mafiaFont;
+    src: url(../fonts/AURORABC.TTF);
+}
+
+@font-face {
+	
+	font-family: mafiaThin;
+	src: url(../fonts/AURORAC.TTF);
+}

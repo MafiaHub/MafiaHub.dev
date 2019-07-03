@@ -1,0 +1,93 @@
+/* Navbar */
+.navbar-nav>li>a,
+.navbar-brand {
+
+    padding-top: 30px !important;
+    padding-bottom: 0 !important;
+    height: 80px;
+    font-family: mafiaFont;
+    font-size: 19px;
+}
+
+.navbar-default {
+
+    border-bottom: 0px solid #D40000 !important;
+}
+
+.navbar {
+
+    min-height: 80px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-nav>.active>a {
+
+    color: #fff !important;
+    background-color: #D40000 !important;
+}
+
+.btn {
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    border-color: white !important;
+}
+
+.btn:hover {
+    background-color: white !important;
+    border-radius: 0px !important;
+    border-color: white !important;
+    color: black !important;
+}
+
+#main-slider-bg {
+
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+#about-section {
+
+    margin-bottom: 100px;
+}
+
+#media-section {
+    margin-bottom: 30px;
+}
+
+#team-section,
+#faq-section {
+    text-align: center;
+    background-color: #EBEBEB;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+p {
+    font-size: 17px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.embed-responsive {
+    overflow: visible;
+}
+
+.member {
+    margin-bottom: 30px;
+}
+
+.left-align {
+    text-align: justify;
+}
